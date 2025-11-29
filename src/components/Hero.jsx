@@ -30,7 +30,8 @@ const Hero = () => {
             </p>
 
             <div className="flex flex-wrap gap-4 pt-4">
-              <Button 
+              <a href="https://prescripto-9uvh.vercel.app/">
+                 <Button 
                 variant="hero" 
                 size="lg"
                 className="group shadow-xl hover:shadow-2xl hover:scale-105 transition-all duration-300"
@@ -38,13 +39,17 @@ const Hero = () => {
                 Sign Up
                 <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
               </Button>
-              <Button 
+              </a>
+             
+              <a href="https://prescripto-9uvh.vercel.app/?mode=login">
+                <Button 
                 variant="outline" 
                 size="lg"
                 className="border-2 border-white bg-white/10 backdrop-blur-sm text-white hover:bg-white hover:text-primary shadow-lg hover:shadow-xl hover:scale-105 transition-all duration-300"
               >
                 Login
               </Button>
+              </a>
             </div>
           </div>
 
